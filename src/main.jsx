@@ -9,6 +9,7 @@ import Root from './Root';
 import Home from './Page/Home/Home';
 import MeditationCourse from './Page/MeditationCourse/MeditationCourse';
 import YogaCourse from './Page/YogaCorse/YogaCourse';
+import AboutYoga from './Page/AboutYoga/AboutYoga';
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
       {
         path: "/yogaCourse",
         element: <YogaCourse></YogaCourse>
+      },
+      {
+        path: "/aboutyoga",
+        element: <AboutYoga></AboutYoga>
       }
     ]
   },
