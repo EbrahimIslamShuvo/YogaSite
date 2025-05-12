@@ -16,7 +16,7 @@ const MainNav = () => {
             <div className="flex items-center justify-between w-full px-4 lg:w-10/12 mx-auto py-4">
                 {/* Logo */}
                 <div className="flex-1 lg:flex-none">
-                    <Link to="/" className="text-4xl font-extrabold hover:text-[#f55839] transition-colors">
+                    <Link to="/" className="lg:text-4xl md:text-3xl text-2xl font-extrabold hover:text-[#f55839] transition-colors">
                         PROWESS <span className='text-[#f55839]'>++</span>
                     </Link>
                 </div>
