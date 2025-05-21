@@ -10,6 +10,12 @@ import Home from './Page/Home/Home';
 import MeditationCourse from './Page/MeditationCourse/MeditationCourse';
 import YogaCourse from './Page/YogaCorse/YogaCourse';
 import AboutYoga from './Page/AboutYoga/AboutYoga';
+import Blog from './Page/Blog/Blog';
+import SingleBlog from './Page/Blog/SingleBlog';
+import Shop from './Page/Shop/Shop';
+import SingleShop from './Page/Shop/SingleShop';
+import Course from './Page/Course/Course';
+import SingleCourse from './Page/Course/SingleCourse';
 
 const router = createBrowserRouter([
   {
@@ -31,6 +37,30 @@ const router = createBrowserRouter([
       {
         path: "/aboutyoga",
         element: <AboutYoga></AboutYoga>
+      },
+      {
+        path: "/blog",
+        element: <Blog></Blog>
+      },
+      {
+        path: "/blog/:id",
+        element: <SingleBlog></SingleBlog>
+      },
+      {
+        path: "/shop",
+        element: <Shop></Shop>
+      },
+      {
+        path: "/shop/:id",
+        element: <SingleShop></SingleShop>
+      },
+      {
+        path: "/course",
+        element: <Course></Course>
+      },
+      {
+        path: "/course/:id",
+        element: <SingleCourse></SingleCourse>
       }
     ]
   },

@@ -25,12 +25,9 @@ const MainNav = () => {
                 <div className="hidden lg:flex flex-1 justify-center">
                     <nav className="flex items-center gap-8 text-lg font-semibold">
                         <Link to="/" className='hover:text-[#f55839] transition-colors'>HOME</Link>
-                        <Link to="/pages" className='hover:text-[#f55839] transition-colors'>PAGES</Link>
-                        <Link to="/portfolio" className='hover:text-[#f55839] transition-colors'>PORTFOLIO</Link>
                         <Link to="/blog" className='hover:text-[#f55839] transition-colors'>BLOG</Link>
-                        <Link to="/events" className='hover:text-[#f55839] transition-colors'>EVENT</Link>
+                        <Link to="/course" className='hover:text-[#f55839] transition-colors'>COURSE</Link>
                         <Link to="/shop" className='hover:text-[#f55839] transition-colors'>SHOP</Link>
-                        <Link to="/elements" className='hover:text-[#f55839] transition-colors'>ELEMENTS</Link>
                     </nav>
                 </div>
 
@@ -77,20 +74,6 @@ const MainNav = () => {
                             HOME
                         </Link>
                         <Link 
-                            to="/pages" 
-                            className='hover:text-[#f55839] transition-colors py-2'
-                            onClick={toggleDrawer}
-                        >
-                            PAGES
-                        </Link>
-                        <Link 
-                            to="/portfolio" 
-                            className='hover:text-[#f55839] transition-colors py-2'
-                            onClick={toggleDrawer}
-                        >
-                            PORTFOLIO
-                        </Link>
-                        <Link 
                             to="/blog" 
                             className='hover:text-[#f55839] transition-colors py-2'
                             onClick={toggleDrawer}
@@ -98,11 +81,11 @@ const MainNav = () => {
                             BLOG
                         </Link>
                         <Link 
-                            to="/events" 
+                            to="/course" 
                             className='hover:text-[#f55839] transition-colors py-2'
                             onClick={toggleDrawer}
                         >
-                            EVENT
+                            COURSE
                         </Link>
                         <Link 
                             to="/shop" 
@@ -110,13 +93,6 @@ const MainNav = () => {
                             onClick={toggleDrawer}
                         >
                             SHOP
-                        </Link>
-                        <Link 
-                            to="/elements" 
-                            className='hover:text-[#f55839] transition-colors py-2'
-                            onClick={toggleDrawer}
-                        >
-                            ELEMENTS
                         </Link>
                     </nav>
                 </div>
